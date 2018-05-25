@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "description": "simple time reporting based on google calendar",
   "bin": "./bin/tock",
-  "keywords": ["time tracking", "reporting", "google", "calendar"],
+  "keywords": [
+    "time tracking",
+    "reporting",
+    "google",
+    "calendar"
+  ],
   "author": {
     "name": "BTD - Better Things Digital GmbH",
     "email": "hi@betterthings.digital",
@@ -26,11 +31,15 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": ["prettier --write", "git add"]
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "dependencies": {
     "commander": "2.14.1",
     "ical.js": "1.2.2",
+    "lodash.groupby": "4.6.0",
     "moment": "2.21.0",
     "node-fetch": "2.1.1",
     "ora": "2.0.0"
