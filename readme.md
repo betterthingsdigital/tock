@@ -46,4 +46,4 @@ events with the following title structure:
 * `story-id` is the (numerical) short id of the trello card or just a random string (e.g. we use `pm` for project management)
 * `optional comment` can be anything, it will end up in the detailed report
 
-Connecting Trello unlocks the "enrich" feature. Enriching the report means that the Trello card title is fetched and added to the report. For it to work you need to configure Trello access as explained above and use the cards' ids in your calendar events.
+Connecting Trello unlocks the "enrich" feature. Enriching the report means that the Trello card title is fetched and added to the report. For it to work you need to configure Trello access as explained above and use the cards' ids in your calendar events. You can find a card's id under "Share and more..." or just use one of the various Trello card number extensions for your favorite browser.
