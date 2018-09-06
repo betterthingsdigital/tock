@@ -45,3 +45,5 @@ events with the following title structure:
 * `project` is the id specified in the config's project section
 * `story-id` is the (numerical) short id of the trello card or just a random string (e.g. we use `pm` for project management)
 * `optional comment` can be anything, it will end up in the detailed report
+
+Connecting Trello unlocks the "enrich" feature. Enriching the report means that the Trello card title is fetched and added to the report.
