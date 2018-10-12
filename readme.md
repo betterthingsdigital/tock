@@ -1,4 +1,4 @@
-![](./images/tock-header.png)
+![](https://raw.githubusercontent.com/betterthingsdigital/art/master/tock/tock-readme-header.png)
 
 Simple time reporting based on Google Calendar.
 
